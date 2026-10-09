@@ -8,5 +8,14 @@
 # Follow the instructions from readme.md.
 
 
+def sum(a, b):
+    return a + b
 
-def compute(num1, poperation='+')
+def main():
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    total = sum(num1, num2)
+    print(f"The sum is {total}")
+
+if __name__ == "__main__":
+    main()
