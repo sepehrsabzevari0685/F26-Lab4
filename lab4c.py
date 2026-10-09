@@ -6,3 +6,7 @@
 # Usage: ./lab4c.py
 
 # Follow the instructions from readme.md.
+
+
+
+def compute(num1, poperation='+')
