@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: sepehr sabzevari
+# Date: 10,9,2026
 # Purpose: Modify the calcualtor program to use keyword parameters.
 # Usage: ./lab4e.py
 
