@@ -8,7 +8,12 @@
 
 # Follow the instructions from readme.md.
 
-def compute(*, num1, num2, operation='+'):
+def compute(num1, num2, operation='+'):
+    """
+    @Function definition: performs the chosen arithmetic operation on two numbers
+    @param: num1 - first number, num2 - second number, operation - math symbol (default '+')
+    @return: result of the operation, or "Invalid operation"
+    """
     if operation == '+':
         return num1 + num2
     elif operation == '-':
@@ -28,6 +33,7 @@ def main():
     print(compute(num1=13, num2=45, operation='*'))
     print(compute(operation='/', num2=45, num1=13))  # out of order
     print(compute(num1=13, num2=45, operation='-'))
+    print(compute(num1=13, num2=45, operation='+'))
     print(compute(num1=13, num2=45))  # default '+'
 
 if __name__ == "__main__":
